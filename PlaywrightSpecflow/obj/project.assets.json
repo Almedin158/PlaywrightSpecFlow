@@ -6303,11 +6303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlmedinAlikadic\\source\\repos\\PlaywrightSpecFlow\\PlaywrightSpecflow\\PlaywrightSpecflow.csproj",
+      "projectUniqueName": "C:\\Users\\AlmedinAlikadic\\Desktop\\PlaywrightSpecFlow\\PlaywrightSpecflow\\PlaywrightSpecflow.csproj",
       "projectName": "PlaywrightSpecflow",
-      "projectPath": "C:\\Users\\AlmedinAlikadic\\source\\repos\\PlaywrightSpecFlow\\PlaywrightSpecflow\\PlaywrightSpecflow.csproj",
+      "projectPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\PlaywrightSpecFlow\\PlaywrightSpecflow\\PlaywrightSpecflow.csproj",
       "packagesPath": "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlmedinAlikadic\\source\\repos\\PlaywrightSpecFlow\\PlaywrightSpecflow\\obj\\",
+      "outputPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\PlaywrightSpecFlow\\PlaywrightSpecflow\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

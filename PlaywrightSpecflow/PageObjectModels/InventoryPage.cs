@@ -18,6 +18,10 @@ namespace PlaywrightSpecflow.PageObjectModels
 
         private ILocator _btnBurgerMenuButton => _page.Locator("#react-burger-menu-btn");
         private ILocator _aLogoutSidebarLink => _page.Locator("#logout_sidebar_link");
+        private ILocator _liSocialFacebook => _page.Locator(".social_facebook");
+        private ILocator _liSocialLinkedIn => _page.Locator(".social_linkedin");
+        private ILocator _liSocialTwitter => _page.Locator(".social_twitter");
+        private ILocator _divShoppningCartContainer => _page.Locator("#shopping_cart_container");
 
         public async Task OpenSidebar()
         {
@@ -27,6 +31,23 @@ namespace PlaywrightSpecflow.PageObjectModels
         public async Task Logout()
         {
             await _aLogoutSidebarLink.ClickAsync();
+        }
+
+        public async Task ClickYourCart()
+        {
+            await _divShoppningCartContainer.ClickAsync();
+        }
+        public async Task ClickFacebook()
+        {
+            await _liSocialFacebook.ClickAsync();
+        }
+        public async Task ClickTwitter()
+        {
+            await _liSocialTwitter.ClickAsync();
+        }
+        public async Task ClickLinkedIn()
+        {
+            await _liSocialLinkedIn.ClickAsync();
         }
     }
 }
