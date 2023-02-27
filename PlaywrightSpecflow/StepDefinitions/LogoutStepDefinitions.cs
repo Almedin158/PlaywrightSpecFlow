@@ -23,10 +23,7 @@ namespace PlaywrightSpecflow.StepDefinitions
         [Given(@"I am logged in to SourceLabs")]
         public async Task GivenIAmLoggedInToSourceLabs()
         {
-            await _driver.Page.GotoAsync("https://www.saucedemo.com/");
-            await _loginPage.EnterUsername("standard_user");
-            await _loginPage.EnterPassword("secret_sauce");
-            await _loginPage.ClickLogin();
+            await _driver.Page.GotoAsync("https://www.saucedemo.com/inventory.html");
         }
 
         [When(@"I open the side menu")]

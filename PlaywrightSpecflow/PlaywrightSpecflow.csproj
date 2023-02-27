@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="PageNavigation\" />
     <Folder Include="PageUI\" />
-    <Folder Include="Support\" />
   </ItemGroup>
 
 </Project>

@@ -24,7 +24,7 @@ namespace PlaywrightSpecflow.StepDefinitions
         [Given(@"I am on the Sauce Demo login page")]
         public async Task GivenIAmOnTheSauceDemoLoginPage()
         {
-            await _driver.Page.GotoAsync("https://www.saucedemo.com/inventory.html");
+            await _driver.Page.GotoAsync("https://www.saucedemo.com");
         }
 
         [When(@"I enter valid username ""([^""]*)"" and password ""([^""]*)""")]
