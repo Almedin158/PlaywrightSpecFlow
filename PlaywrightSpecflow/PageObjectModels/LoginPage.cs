@@ -18,7 +18,7 @@ namespace PlaywrightSpecflow.Pages
 
         public async Task EnterUsername(string username)
         {
-            await _txtUsername.FillAsync(username, new LocatorFillOptions);
+            await _txtUsername.FillAsync(username);
         }
 
         public async Task EnterPassword(string password)
