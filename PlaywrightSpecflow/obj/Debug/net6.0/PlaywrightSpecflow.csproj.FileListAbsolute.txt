@@ -413,8 +413,11 @@ C:\Users\AlmedinAlikadic\source\repos\PlaywrightSpecFlow\PlaywrightSpecflow\obj\
 C:\Users\AlmedinAlikadic\source\repos\PlaywrightSpecFlow\PlaywrightSpecflow\obj\Debug\net6.0\PlaywrightSpecflow.pdb
 C:\Users\AlmedinAlikadic\source\repos\PlaywrightSpecFlow\PlaywrightSpecflow\obj\Debug\net6.0\PlaywrightSpecflow.genruntimeconfig.cache
 C:\Users\AlmedinAlikadic\source\repos\PlaywrightSpecFlow\PlaywrightSpecflow\obj\Debug\net6.0\ref\PlaywrightSpecflow.dll
-C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\testhost.exe
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\testhost.dll
+C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\LivingDoc.Dtos.dll
+C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\testhost.exe
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\.playwright\node\win32_x64\node.exe
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\.playwright\node\win32_x64\playwright.cmd
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\.playwright\node\LICENSE
@@ -708,9 +711,6 @@ C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\.playwright\package\types\structs.d.ts
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\.playwright\package\types\types.d.ts
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\playwright.ps1
-C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\LivingDoc.Dtos.dll
-C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
-C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\NUnit3.TestAdapter.dll
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
 C:\Users\AlmedinAlikadic\Desktop\PlaywrightSpecFlow\PlaywrightSpecflow\bin\Debug\net6.0\nunit.engine.dll

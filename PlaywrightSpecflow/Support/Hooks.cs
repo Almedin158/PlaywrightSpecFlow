@@ -5,6 +5,8 @@ namespace PlaywrightSpecflow.Support
     [Binding]
     public sealed class Hooks
     {
+        //Called once before the whole test run (no matter the amount of tests, this method is called only once before any tests run.
+        //This method creates a new isntance of a browser, in this case performs a login and exports the browsers cookies/state so you can dodge logging in again
         [BeforeTestRun]
         public static async Task BeforeTestRun()
         {

@@ -1,4 +1,3 @@
-using Newtonsoft.Json;
 using NUnit.Framework;
 using PlaywrightSpecflow.Drivers;
 using PlaywrightSpecflow.Pages;
@@ -34,8 +33,6 @@ namespace PlaywrightSpecflow.StepDefinitions
         public async Task WhenIClickTheLoginButton()
         {
             await _loginPage.ClickLogin();
-            var storageState = await _driver.context.StorageStateAsync();
-            await File.WriteAllTextAsync("storage-state.json", JsonConvert.SerializeObject(storageState));
         }
 
         [Then(@"I should be redirected to the Sauce Demo products page")]
