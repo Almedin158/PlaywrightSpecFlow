@@ -1,8 +1,4 @@
 ﻿using Microsoft.Playwright;
-using Microsoft.Playwright.NUnit;
-using Newtonsoft.Json;
-using PlaywrightSpecflow.Drivers;
-using TechTalk.SpecFlow;
 
 namespace PlaywrightSpecflow.Support
 {

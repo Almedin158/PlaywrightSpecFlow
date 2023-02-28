@@ -1,10 +1,6 @@
 ﻿using Microsoft.Playwright;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Playwright.TestAdapter;
+using NUnit.Framework;
 
 namespace PlaywrightSpecflow.Drivers
 {
@@ -18,7 +14,7 @@ namespace PlaywrightSpecflow.Drivers
         }
 
         public IPage Page => _page.Result;
-
+        //Vidi da dodas playwright expect assertione
         public async Task<IPage> InitializePlaywright()
         {
             //Playwright

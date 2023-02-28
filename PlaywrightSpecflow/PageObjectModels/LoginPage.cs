@@ -1,9 +1,4 @@
 ﻿using Microsoft.Playwright;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PlaywrightSpecflow.Pages
 {
@@ -23,7 +18,7 @@ namespace PlaywrightSpecflow.Pages
 
         public async Task EnterUsername(string username)
         {
-            await _txtUsername.FillAsync(username);
+            await _txtUsername.FillAsync(username, new LocatorFillOptions);
         }
 
         public async Task EnterPassword(string password)

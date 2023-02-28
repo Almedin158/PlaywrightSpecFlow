@@ -1,11 +1,7 @@
-using Microsoft.Playwright;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using PlaywrightSpecflow.Drivers;
 using PlaywrightSpecflow.Pages;
-using System;
-using System.Data.SqlTypes;
-using TechTalk.SpecFlow;
 
 namespace PlaywrightSpecflow.StepDefinitions
 {

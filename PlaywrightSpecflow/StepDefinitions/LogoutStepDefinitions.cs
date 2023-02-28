@@ -1,14 +1,13 @@
+using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
 using PlaywrightSpecflow.Drivers;
 using PlaywrightSpecflow.PageObjectModels;
 using PlaywrightSpecflow.Pages;
-using System;
-using TechTalk.SpecFlow;
 
 namespace PlaywrightSpecflow.StepDefinitions
 {
     [Binding]
-    public class LogoutStepDefinitions
+    public class LogoutStepDefinitions:PageTest
     {
         private Driver _driver;
         private LoginPage _loginPage;

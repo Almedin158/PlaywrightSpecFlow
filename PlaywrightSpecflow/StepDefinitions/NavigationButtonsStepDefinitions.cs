@@ -2,8 +2,6 @@ using Microsoft.Playwright;
 using NUnit.Framework;
 using PlaywrightSpecflow.Drivers;
 using PlaywrightSpecflow.PageObjectModels;
-using System;
-using TechTalk.SpecFlow;
 
 namespace PlaywrightSpecflow.StepDefinitions
 {
