@@ -81,5 +81,17 @@ namespace PlaywrightSpecflow.StepDefinitions
             StringAssert.Contains("https://www.linkedin.com/company/sauce-labs/", newPage.Url);
         }
 
+        [When(@"I click the About button")]
+        public async Task WhenIClickTheAboutButton()
+        {
+            await _inventoryPage.ClickAbout();
+        }
+
+        [Then(@"I want to be redirected to the About page")]
+        public async Task ThenIWantToBeRedirectedToTheAboutPage()
+        {
+            Assert.AreEqual("https://saucelabs.com/", _driver.Page.Url);
+        }
+
     }
 }

@@ -22,3 +22,9 @@ Scenario: User clicks on the LinkedIn button
 	Given I am logged in to SourceLabs
 	When I click the LinkedIn button
 	Then I should be redirected to the LinkedIn page
+
+Scenario: User clisk on the About button
+	Given I am logged in to SourceLabs
+	When I open the side menu
+	And I click the About button
+	Then I want to be redirected to the About page

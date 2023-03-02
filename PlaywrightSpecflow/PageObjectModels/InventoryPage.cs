@@ -21,10 +21,27 @@ namespace PlaywrightSpecflow.PageObjectModels
         private ILocator _spanShoppingCartBadge => _page.Locator(".shopping_cart_badge");
         private ILocator _aResetSidebarLink => _page.Locator("#reset_sidebar_link");
         private ILocator _selectProductSortContainer => _page.Locator(".product_sort_container");
+        private ILocator _aAboutSidebarLink => _page.Locator("#about_sidebar_link");
+
+        private string _divInventoryItemPrice = "div[class='inventory_item_price']";
+
+        private string _divInventoryItemName = "div[class='inventory_item_name']";
+        private ILocator _divSidebar => _page.Locator(".bm-menu-wrap");
+        private ILocator _btnBurgetCrossButton => _page.Locator("#react-burger-cross-btn");
+
+
+
+
+
 
         public async Task OpenSidebar()
         {
             await _btnBurgerMenuButton.ClickAsync();
+        }
+
+        public async Task CloseSidebar()
+        {
+            await _btnBurgetCrossButton.ClickAsync();
         }
 
         public async Task Logout()
@@ -49,6 +66,11 @@ namespace PlaywrightSpecflow.PageObjectModels
             await _liSocialLinkedIn.ClickAsync();
         }
 
+        public async Task ClickAbout()
+        {
+            await _aAboutSidebarLink.ClickAsync();
+        }
+
         public async Task AddBackpackToCart()
         {
             await _btnAddToCartSourceLabsBackpack.ClickAsync();
@@ -64,6 +86,11 @@ namespace PlaywrightSpecflow.PageObjectModels
             return _spanShoppingCartBadge;
         }
 
+        public ILocator GetSidebar()
+        {
+            return _divSidebar;
+        }
+
         public async Task ResetAppState()
         {
             await _aResetSidebarLink.ClickAsync();
@@ -74,9 +101,32 @@ namespace PlaywrightSpecflow.PageObjectModels
             await _selectProductSortContainer.SelectOptionAsync("hilo");
         }
 
+        public async Task SelectLowToHighOrder()
+        {
+            await _selectProductSortContainer.SelectOptionAsync("lohi");
+        }
+
+        public async Task SelectAToZOrder()
+        {
+            await _selectProductSortContainer.SelectOptionAsync("az");
+        }
+        public async Task SelectZToAOrder()
+        {
+            await _selectProductSortContainer.SelectOptionAsync("za");
+        }
         public ILocator GetProductSortContainerOrder()
         {
             return _selectProductSortContainer;
+        }
+
+        public string GetProductNameLocator()
+        {
+            return _divInventoryItemName;
+        }
+
+        public string GetProductPriceLocator()
+        {
+            return _divInventoryItemPrice;
         }
     }
 }

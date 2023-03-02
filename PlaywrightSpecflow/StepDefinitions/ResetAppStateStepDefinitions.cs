@@ -55,6 +55,5 @@ namespace PlaywrightSpecflow.StepDefinitions
         {
             Assert.AreEqual("az", await _inventoryPage.GetProductSortContainerOrder().InputValueAsync());
         }
-
     }
 }
